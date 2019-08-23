@@ -1,0 +1,67 @@
+.subnav{
+    margin-bottom: 36px;
+}
+/*合作案例1*/
+.content{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+   
+}
+.content .ctn_1{
+     width: 1200px;
+     height: 530px;
+     margin: 0 auto;
+}
+.content .ctn_1 li{
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    margin-right:4px;
+    position: relative;
+}
+.content .ctn_1 p{
+    width: 296px;
+    height: 40px;
+    background: white;
+    line-height: 40px;
+}
+.content .ctn_1 li img{
+    border: 2px solid white;
+    transition: 0.2s;
+}
+.content .ctn_1 li .i1{
+    width: 1px;
+    height: 36px;
+    background-color: #FFFF00;
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    transition: 0.3s;
+    opacity: 0;
+}
+.content .ctn_1 li .i2{
+    width: 36px;
+    height: 1px;
+    background-color: #FFFF00;
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    transition: 0.3s;
+    opacity: 0;
+}
+.content .ctn_1 li:hover .i1{
+    transform: translateY(119px);
+    opacity: 1;
+}
+.content .ctn_1 li:hover .i2{
+    transform: translateX(128px);
+    opacity: 1;
+}
+.content .ctn_1 li:hover img{
+    border: 2px solid #C91F1F;
+}
+.content .ctn_1 li:hover p{
+    background:#C91F1F;
+    color: white;
+}

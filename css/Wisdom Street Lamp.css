@@ -1,0 +1,156 @@
+/*智慧路灯简介*/
+.jieshao{
+	margin-top: 100px;
+}
+.jieshao h5{
+	font-size: 18px;
+}
+.jieshao h5 p{
+	font-size: 12px;
+	line-height: 30px;
+	text-transform: uppercase;
+	text-align: left;
+}
+.jieshao  .l{
+	position: relative;
+}
+.jieshao .zi{
+	width: 510px;
+	height: 217px;
+	color: white;
+	position: absolute;
+	top: 80px;
+	left: 44px;
+}
+.jieshao .p1{
+	margin-top: 45px;
+	line-height: 27px;
+	width: 470px;
+	text-align: left;
+	text-indent: 2em; 
+}
+.jieshao .l .i1{
+	position: absolute;
+	top: -65px;
+	left:556px;
+}
+.jieshao .l i{
+	display: inline-block;
+	width: 572px;
+	height: 383px;
+	border: 1px solid white;
+	position: absolute;
+	top: -33px;
+	left:590px;
+}
+/*智慧路灯实施的意义*/
+.yiyi{
+	margin-top: 80px;
+}
+.dbt h1{
+	color: #AB0504;
+	background-image:-webkit-linear-gradient(bottom,#AF0404,#905050);
+	-webkit-background-clip: text;
+	font-weight: bold;
+}
+.dbt h1,p{
+	text-align: center;
+}
+.dbt p{
+	letter-spacing:15px;
+	font-weight: bold;
+	color: #999999;
+}
+.yib{
+	margin-left: 170px;
+	position: relative;
+	margin-top: 80px;
+	margin-bottom: 300px;
+}
+
+.yiyi .lx{
+	width: 283px;
+	height: 283px; 
+	-webkit-transform-origin: 0 100%; 
+	-moz-transform-origin: 0 100%; 
+	-o-transform-origin: 0 100%; -ms-transform-origin: 0 100%; 
+	transform-origin: 0 100%; 
+	-webkit-transform:rotate(-45deg); 
+	-moz-transform:rotate(-45deg); 
+	-o-transform:rotate(-45deg); 
+	-ms-transform:rotate(-45deg); 
+	transform:rotate(-45deg); 
+	/*border:3px solid white;*/
+	float: left;
+	margin: 50px 140px 50px 0px;
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+}
+.yiyi .lx{
+	border: none;
+}
+.yiyi .lx img{
+	width: 395px;
+	height: 395px;
+	transform: rotate(45deg);
+	position: absolute;
+	left: -56px;
+	top: -56px;
+	z-index: 3;
+	overflow: hidden;
+}
+.yiyi .lx3{
+	margin-right: 0px;
+}
+.yiyi .lx4{
+	position: absolute;
+	top: 220px;
+	left: 210px;
+}
+.yiyi .lx5{
+	position: absolute;
+	top: 220px;
+	right:143px;
+}
+.yib p{
+	background-color: rgba(255,0,0,.3);
+	padding-top: 30px;
+	color: white;
+	position: absolute;
+	left: -75px;
+	top: 90px;
+	width: 395px;
+	height: 140px;
+	z-index: 4;
+	font-weight: normal;
+	line-height: 30px;
+	font-size: 18px;
+	transform: rotate(45deg);
+	opacity: 0;
+	transition: 0.1s;
+}
+.yib p:hover {
+	opacity: 1;
+}
+/*智慧路灯的版块功能 */
+.gongneng{
+	margin-bottom: 80px;
+}
+/*多种智慧路灯型号供您选择*/
+.xb{
+	position: relative;
+	margin-top: 300px;
+}
+.xb ul li{
+	float: left;
+	margin: 0px 75px 0px 75px;
+}
+.xb ul{
+	position: absolute;
+	bottom: 0px;
+	left: 90px;
+}
+.lj{
+	text-align: left;
+}

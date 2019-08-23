@@ -1,0 +1,171 @@
+/*导航*/
+/*.subnav{
+	width: 100%;
+	height: 40px;
+	background-color: #AAACAE;
+}
+.subnav h4{
+	height: 40px;
+	width: 500px;
+	line-height: 40px;
+	padding: 0;
+	margin: 0;
+	background-color: #A20605;
+	text-align: right;
+	color: white;
+	padding-right: 45px;
+	display: inline-block;
+}
+ .subnav p{
+ 	display: inline-block;
+ 	margin-left: 65px;
+ }
+ .subnav p span{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.subnav a{
+	color: black;
+}
+.subnav .a1{
+	background: url(../images/fangzi.jpg) no-repeat left center;
+	padding-left: 20px;
+}
+.sub{
+	width: 990px;
+	display: inline-block;
+}
+.subnav ul{
+	float: right;
+	width: 245px;
+}
+.subnav ul li{
+	float: left;
+	width: 64px;
+	height: 28px;
+	border:1px solid #707072;
+	line-height: 28px;
+	border-radius: 8px;
+	text-align: center;
+	margin-left: 15px;
+	margin-top: -5px;
+	transition: 0.3s;
+}
+.subnav ul li:active{
+	border:1px solid  #A20605;
+	border-radius: 0px;
+}
+.subnav ul li:active a{
+	color: #A20605;
+	text-decoration: none;
+}*/
+/*联系我们块*/
+.contact_us{
+	margin-top: 35px;
+}
+.ctop{
+	width: 1200px;
+	height: 480px;
+	background-color: #DDE0E3;
+}
+.ctop ul li{
+	width: 340px;
+	height: 324px;
+	background-color: white;
+	float: left;
+	margin: 110px 30px 0px 30px;
+	position: relative;
+	box-shadow:0 10px 10px rgba(0, 0, 0, 0.2););
+}
+.ctop ul li h4{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 100px;
+}
+.ctop ul li p{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 46px;
+}
+.ctop ul li span{
+	display: block;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	background-color: #FFB92A;
+	color: white;
+	line-height: 40px;
+	margin: 0 auto;
+	margin-top: 30px;
+	transition: 0.3s;
+}
+.ctop ul li span:hover{
+	transform: translateY(-10px);
+}
+.ctop ul li i{
+	position: absolute;
+	top: -65px;
+	left: 100px;
+}
+.ctop .s1{
+	background-color: #72AA19;
+}
+.ctop .s2{
+	background-color:#4ACDD9;
+}
+.cbot{
+	margin-top: 15px;
+}
+ .iw_poi_title{
+ 	color:#CC5522;
+ 	font-size:14px;
+ 	font-weight:bold;
+ 	overflow:hidden;
+ 	padding-right:13px;
+ 	white-space:nowrap;}
+ .iw_poi_content{
+ 	font:12px arial,sans-serif;
+ 	overflow:visible;
+ 	padding-top:4px;
+ 	white-space:-moz-pre-wrap;
+ 	word-wrap:break-word;}
+ 	.jobs p{
+ 		font-size: 18px;
+ 		line-height: 37px;
+ 		font-weight: bold;
+ 		margin-top: 50px;
+ 		margin-bottom: 50px;
+ 	}
+ 	/*在线留言*/
+ 	.message table{
+ 		margin-top: 75px;
+ 	}
+ 	.message table h4{
+ 		width: 100px;
+ 		height: 50px;
+ 		line-height: 50px;
+ 		text-align: center;
+ 	}
+ 	.message table tr{
+ 			height: 68px;
+ 		}
+ 	.message table tr td {
+ 		padding-left: 15px;
+ 		font-size: 18px;
+ 	}
+ 	.message table tr td input{
+ 		width: 338px;
+ 		height: 40px;
+ 		border:1px solid #DDDDDD;
+ 		border-radius: 5px;
+ 		margin-left: 100px;
+ 	}
+ 	.message table tr textarea{
+ 		width: 338px;
+ 		height: 115px;
+ 		border:1px solid #DDDDDD;
+ 		border-radius: 5px;
+ 		margin-left: 100px;
+ 		vertical-align:top;
+ 		overflow: scroll;
+ 	}

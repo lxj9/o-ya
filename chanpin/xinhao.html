@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>产品中心-信号灯</title>
+    <meta name="Description" Content="">
+    <meta name="Keywords" Content="">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../statics/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/cpzx.css">
+    <link rel="shortcut icon" type="../images/x-icon" href="../ico.ico">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/public.js"></script>
+</head>
+<body>
+<!-- 头部 -->
+<div class="header">
+<!-- 轮播 -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                    <img src="../images/banner1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/banner2.jpg" alt="">
+                    <div class="carousel-caption"></div>
+                </div>
+                <div class="item">
+                    <img src="../images/banner3.jpg" alt="">
+                    <div class="carousel-caption"></div>
+                </div>
+        </div>
+    </div>
+<!-- 导航 -->
+    <div class="head">
+        <div class="nav gwidth">
+            <div class="logo fl"><a href="index.html"><img src="../images/logo.png" alt=""></a></div>
+            <ul class="fr">
+                <li><a href="../index.html" alt="">首页</a></li>
+                <li><a href="../Wisdom Street Lamp.html" alt="">智慧路灯</a></li>
+                <li class="act"><a href="xinhao.html" alt="">产品中心</a></li>
+                <li><a href="../products1.html" alt="">合作案例</a></li>
+                <li><a href="../news.html" alt="">新闻资讯</a></li>
+                <li><a href="../about us/about us.html" alt="">关于我们</a></li>
+                <li><a href="../contact us/contact us.html" alt="">联系我们</a></li>
+                <li class="l1"><input type="text" name="" placeholder="LED路灯"><i><a href="#" alt=""></a></i></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 导航 -->
+    <!-- <div class="subnav">
+        <div class="sub_lred"><p class="sub_gywm">产品中心</p></div>
+        <div class="dhz gwidth">
+            <div class="sub_content ">
+                    <div class="sub_gywm2">
+                        <a href="../index.html" class="a1">首页</a>
+                       <span>/</span>
+                       <a href="zhihui.html"> 产品中心</a>
+                       <span>/</span>
+                       <a href="xinhao.html">信号灯系列</a>
+                    </div>
+            </div>
+        </div>
+    </div> -->
+     <div class="subnav">
+        <div class="sub_lred"><!-- <p class="sub_gywm">合作案例</p> --></div>
+        <!-- <div class="dhz gwidth">
+        <div class="sub_content ">
+            <div class="sub_gywm2">
+                <a href="index.html" class="a1">首页</a>
+                <span>/</span>
+                <a href="#"> 合作案例</a>
+            </div>
+            
+        </div> -->
+        <div class="wrap_gray">
+            <span class="product_an">产品中心</span>
+            <div class="sub_gywm2">
+                <a href="../index.html" class="a1">首页</a>
+                <span>/</span>
+                <a href="zhihui.html">产品中心</a>
+                <span>/</span>
+                <a href="xinhao.html">信号灯系列</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 产品中心-->
+    <div class="box gwidth clearfix">
+        <ul class="b_l">
+            <li onclick="zhihui()">
+                <a href="zhihui.html">智慧路灯系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="gaogan()">
+                <a href="gaogan.html">高杆灯系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="daolu()">
+                <a href="daolu.html">道路灯系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="tingyuan()">
+                <a href="tingyuan.html">庭院灯系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="taiyangneng()">
+                <a href="taiyangneng.html">太阳能灯系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="huadeng()">
+                <a href="huadeng.html">华灯系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="jingguan()">
+                <a href="jingguan.html">景观灯系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="caoping()">
+                <a href="caoping.html">草坪灯系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="qiangtou()">
+                <a href="qiangtou.html">墙头灯系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="touguang()">
+                <a href="touguang.html">投光灯系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="dimai()">
+                <a href="dimai.html">地埋灯系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="dicha()">
+                <a href="dicha.html">地插灯系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="gongkuang()">
+                <a href="gongkuang.html">工矿灯系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            
+            <li onclick="fangbao()">
+                <a href="fangbao.html">防爆灯系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="xiqiang()">
+                <a href="xiqiang.html">洗墙灯系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="shuma()">
+                <a href="shuma.html">数码管系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="ledlianghua()">
+                <a href="LED.html">LED亮化系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="peijian()">
+                <a href="peijian.html">配件系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="jiankong()">
+                <a href="jiankong.html">监控杆系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="biaozhipai()">
+                <a href="biaozhipai.html">标志牌系列
+                    <span class="iconfont icon-youjiantou- right2ww"></span>
+                </a>
+            </li>
+            <li onclick="xinhao()" style="background: -webkit-gradient(linear, 0 0, 0 100%, from(#F31514), to(#A20605));">
+                <a href="xinhao.html"style="color:#fff;">信号灯系列<span class="iconfont icon-youjiantou- right2ww"style="color:#fff;"></span>
+                </a>
+            </li>
+        </ul>
+        <!-- <div>
+
+            zhihui
+            gaogan
+            daolu
+            tingyuan
+            taiyangneng
+            huadeng
+            jingguan
+            caoping
+            qiangtou
+            touguang
+            dimai
+            dicha
+            gongkaung
+            fangbao
+            xiqiang
+            shuma
+            ledlianghua
+            peijian
+            jiankong
+            biaozhipai
+            xinhao
+
+
+
+           b_leftw11
+        </div>
+ -->
+
+
+
+ <!----------------- 选项卡 ------------------->
+
+
+    <div class="xxk_box clearfix">
+        <!-- 1-智慧路灯 -->
+     <!--  <div class="b_leftw11" id="b_leftw11">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/zhld1.jpg"><p>ZHLD-01</p></li>
+               <li><img src="../images/cpzx/zhld2.jpg"><p>ZHLD-02</p></li>
+               <li><img src="../images/cpzx/zhld3.jpg"><p>ZHLD-03</p></li>
+               <li><img src="../images/cpzx/zhld4.jpg"><p>ZHLD-04</p></li>
+               <li><img src="../images/cpzx/zhld5.jpg"><p>ZHLD-05</p></li>
+               <li><img src="../images/cpzx/zhld6.jpg"><p>ZHLD-06</p></li>
+               <li><img src="../images/cpzx/zhld7.jpg"><p>ZHLD-07</p></li>
+               <li><img src="../images/cpzx/zhld8.jpg"><p>ZHLD-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+         </div>  -->
+    <!--     2-高杆灯 -->
+<!--      <div class="b_leftw12" id="b_leftw12">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/GGD-01.jpg"><p>GGD-01</p></li>
+               <li><img src="../images/cpzx/GGD-02.jpg"><p>GGD-02</p></li>
+               <li><img src="../images/cpzx/GGD-03.jpg"><p>GGD-03</p></li>
+               <li><img src="../images/cpzx/GGD-04.jpg"><p>GGD-04</p></li>
+               <li><img src="../images/cpzx/GGD-05.jpg"><p>GGD-05</p></li>
+               <li><img src="../images/cpzx/GGD-06.jpg"><p>GGD-06</p></li>
+               <li><img src="../images/cpzx/GGD-07.jpg"><p>GGD-07</p></li>
+               <li><img src="../images/cpzx/GGD-08.jpg"><p>GGD-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+     </div> -->
+
+      <!--    3-道路灯 -->
+   <!--      <div class="b_leftw13" id="b_leftw13">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/DLD-01.jpg"><p>DLD-01</p></li>
+               <li><img src="../images/cpzx/DLD-02.jpg"><p>DLD-02</p></li>
+               <li><img src="../images/cpzx/DLD-03.jpg"><p>DLD-03</p></li>
+               <li><img src="../images/cpzx/DLD-04.jpg"><p>DLD-04</p></li>
+               <li><img src="../images/cpzx/DLD-05.jpg"><p>DLD-05</p></li>
+               <li><img src="../images/cpzx/DLD-06.jpg"><p>DLD-06</p></li>
+               <li><img src="../images/cpzx/DLD-07.jpg"><p>DLD-07</p></li>
+               <li><img src="../images/cpzx/DLD-08.jpg"><p>DLD-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div>  -->
+       <!--  4-庭院灯 -->
+       <!--  <div class="b_leftw14" id="b_leftw14">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/TYD-01.jpg"><p>TYD-01</p></li>
+               <li><img src="../images/cpzx/TYD-02.jpg"><p>TYD-02</p></li>
+               <li><img src="../images/cpzx/TYD-03.jpg"><p>TYD-03</p></li>
+               <li><img src="../images/cpzx/TYD-04.jpg"><p>TYD-04</p></li>
+               <li><img src="../images/cpzx/TYD-05.jpg"><p>TYD-05</p></li>
+               <li><img src="../images/cpzx/TYD-06.jpg"><p>TYD-06</p></li>
+               <li><img src="../images/cpzx/TYD-07.jpg"><p>TYD-07</p></li>
+               <li><img src="../images/cpzx/TYD-08.jpg"><p>TYD-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div> -->
+         <!--  5-太阳能路灯 -->
+        <!-- <div class="b_leftw15" id="b_leftw15">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/TYND-01.jpg"><p>TYND-01</p></li>
+               <li><img src="../images/cpzx/TYND-02.jpg"><p>TYND-02</p></li>
+               <li><img src="../images/cpzx/TYND-03.jpg"><p>TYND-03</p></li>
+               <li><img src="../images/cpzx/TYND-04.jpg"><p>TYND-04</p></li>
+               <li><img src="../images/cpzx/TYND-05.jpg"><p>TYND-05</p></li>
+               <li><img src="../images/cpzx/TYND-06.jpg"><p>TYND-06</p></li>
+               <li><img src="../images/cpzx/TYND-07.jpg"><p>TYND-07</p></li>
+               <li><img src="../images/cpzx/TYND-08.jpg"><p>TYND-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div> -->
+       <!--  6-华灯 -->
+        <!-- <div class="b_leftw16" id="b_leftw16">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/HD-01.jpg"><p>HD-01</p></li>
+               <li><img src="../images/cpzx/HD-02.jpg"><p>HD-02</p></li>
+               <li><img src="../images/cpzx/HD-03.jpg"><p>HD-03</p></li>
+               <li><img src="../images/cpzx/HD-04.jpg"><p>HD-04</p></li>
+               <li><img src="../images/cpzx/HD-05.jpg"><p>HD-05</p></li>
+               <li><img src="../images/cpzx/HD-06.jpg"><p>HD-06</p></li>
+               <li><img src="../images/cpzx/HD-07.jpg"><p>HD-07</p></li>
+               <li><img src="../images/cpzx/HD-08.jpg"><p>HD-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div> -->
+       <!--  7-景观灯 -->
+     <!--    <div class="b_leftw17" id="b_leftw17">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/JGD-01.jpg"><p>JGD-01</p></li>
+               <li><img src="../images/cpzx/JGD-02.jpg"><p>JGD-02</p></li>
+               <li><img src="../images/cpzx/JGD-03.jpg"><p>JGD-03</p></li>
+               <li><img src="../images/cpzx/JGD-04.jpg"><p>JGD-04</p></li>
+               <li><img src="../images/cpzx/JGD-05.jpg"><p>JGD-05</p></li>
+               <li><img src="../images/cpzx/JGD-06.jpg"><p>JGD-06</p></li>
+               <li><img src="../images/cpzx/JGD-07.jpg"><p>JGD-07</p></li>
+               <li><img src="../images/cpzx/JGD-08.jpg"><p>JGD-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div>  -->
+       <!-- 8-草坪灯 -->
+        <!-- <div class="b_leftw18" id="b_leftw18">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/CPD-01.jpg"><p>CPD-01</p></li>
+               <li><img src="../images/cpzx/CPD-02.jpg"><p>CPD-02</p></li>
+               <li><img src="../images/cpzx/CPD-03.jpg"><p>CPD-03</p></li>
+               <li><img src="../images/cpzx/CPD-04.jpg"><p>CPD-04</p></li>
+               <li><img src="../images/cpzx/CPD-05.jpg"><p>CPD-05</p></li>
+               <li><img src="../images/cpzx/CPD-06.jpg"><p>CPD-06</p></li>
+               <li><img src="../images/cpzx/CPD-07.jpg"><p>CPD-07</p></li>
+               <li><img src="../images/cpzx/CPD-08.jpg"><p>CPD-08</p></li>
+           </ul>
+           <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div> -->
+        <!-- 9-墙头灯 -->
+        <!-- <div class="b_leftw19" id="b_leftw19">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/QTD-01.jpg"><p>QTD-01</p></li>
+               <li><img src="../images/cpzx/QTD-02.jpg"><p>QTD-02</p></li>
+               <li><img src="../images/cpzx/QTD-03.jpg"><p>QTD-03</p></li>
+               <li><img src="../images/cpzx/QTD-04.jpg"><p>QTD-04</p></li>
+               <li><img src="../images/cpzx/QTD-05.jpg"><p>QTD-05</p></li>
+               <li><img src="../images/cpzx/QTD-06.jpg"><p>QTD-06</p></li>
+               <li><img src="../images/cpzx/QTD-07.jpg"><p>QTD-07</p></li>
+               <li><img src="../images/cpzx/QTD-08.jpg"><p>QTD-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div>
+         10-投光灯 -->
+       <!--  <div class="b_leftw20" id="b_leftw20">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/TGD-01.jpg"><p>TGD-01</p></li>
+               <li><img src="../images/cpzx/TGD-02.jpg"><p>TGD-02</p></li>
+               <li><img src="../images/cpzx/TGD-03.jpg"><p>TGD-03</p></li>
+               <li><img src="../images/cpzx/TGD-04.jpg"><p>TGD-04</p></li>
+               <li><img src="../images/cpzx/TGD-05.jpg"><p>TGD-05</p></li>
+               <li><img src="../images/cpzx/TGD-06.jpg"><p>TGD-06</p></li>
+               <li><img src="../images/cpzx/TGD-07.jpg"><p>TGD-07</p></li>
+               <li><img src="../images/cpzx/TGD-08.jpg"><p>TGD-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div>  -->
+     <!--   11-地埋灯 -->
+        <!-- <div class="b_leftw21" id="b_leftw21">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/DMD-01.jpg"><p>DMD-01</p></li>
+               <li><img src="../images/cpzx/DMD-02.jpg"><p>DMD-02</p></li>
+               <li><img src="../images/cpzx/DMD-03.jpg"><p>DMD-03</p></li>
+               <li><img src="../images/cpzx/DMD-04.jpg"><p>DMD-04</p></li>
+               <li><img src="../images/cpzx/DMD-05.jpg"><p>DMD-05</p></li>
+               <li><img src="../images/cpzx/DMD-06.jpg"><p>DMD-06</p></li>
+               <li><img src="../images/cpzx/DMD-07.jpg"><p>DMD-07</p></li>
+               <li><img src="../images/cpzx/DMD-08.jpg"><p>DMD-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div>  -->
+  <!-- 12—地插灯 -->
+       <!--  <div class="b_leftw22" id="b_leftw22">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/DCD-01.jpg"><p>DCD-01</p></li>
+               <li><img src="../images/cpzx/DCD-02.jpg"><p>DCD-02</p></li>
+               <li><img src="../images/cpzx/DCD-03.jpg"><p>DCD-03</p></li>
+               <li><img src="../images/cpzx/DCD-04.jpg"><p>DCD-04</p></li>
+               <li><img src="../images/cpzx/DCD-05.jpg"><p>DCD-05</p></li>
+               <li><img src="../images/cpzx/DCD-06.jpg"><p>DCD-06</p></li>
+               <li><img src="../images/cpzx/DCD-07.jpg"><p>DCD-07</p></li>
+               <li><img src="../images/cpzx/DCD-08.jpg"><p>DCD-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div> -->
+      <!--  13-工矿灯 -->
+       <!--  <div class="b_leftw23" id="b_leftw23">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/GK-01.jpg"><p>GK-01</p></li>
+               <li><img src="../images/cpzx/GK-02.jpg"><p>GK-02</p></li>
+               <li><img src="../images/cpzx/GK-03.jpg"><p>GK-03</p></li>
+               <li><img src="../images/cpzx/GK-04.jpg"><p>GK-04</p></li>
+               <li><img src="../images/cpzx/GK-05.jpg"><p>GK-05</p></li>
+               <li><img src="../images/cpzx/GK-06.jpg"><p>GK-06</p></li>
+               <li><img src="../images/cpzx/GK-07.jpg"><p>GK-07</p></li>
+               <li><img src="../images/cpzx/GK-08.jpg"><p>GK-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div>  -->
+     <!--  14-防爆灯 -->
+        <!-- <div class="b_leftw24" id="b_leftw24">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/FBD-01.jpg"><p>FBD-01</p></li>
+               <li><img src="../images/cpzx/FBD-02.jpg"><p>FBD-02</p></li>
+               <li><img src="../images/cpzx/FBD-03.jpg"><p>FBD-03</p></li>
+               <li><img src="../images/cpzx/FBD-04.jpg"><p>FBD-04</p></li>
+               <li><img src="../images/cpzx/FBD-05.jpg"><p>FBD-05</p></li>
+               <li><img src="../images/cpzx/FBD-06.jpg"><p>FBD-06</p></li>
+               <li><img src="../images/cpzx/FBD-07.jpg"><p>FBD-07</p></li>
+               <li><img src="../images/cpzx/FBD-08.jpg"><p>FBD-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div> -->
+       <!-- 15-洗墙灯 -->
+       <!--  <div class="b_leftw25" id="b_leftw25">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/XQD-01.jpg"><p>XQD-01</p></li>
+               <li><img src="../images/cpzx/XQD-02.jpg"><p>XQD-02</p></li>
+               <li><img src="../images/cpzx/XQD-03.jpg"><p>XQD-03</p></li>
+               <li><img src="../images/cpzx/XQD-04.jpg"><p>XQD-04</p></li>
+               <li><img src="../images/cpzx/XQD-05.jpg"><p>XQD-05</p></li>
+               <li><img src="../images/cpzx/XQD-06.jpg"><p>XQD-06</p></li>
+               <li><img src="../images/cpzx/XQD-07.jpg"><p>XQD-07</p></li>
+               <li><img src="../images/cpzx/XQD-08.jpg"><p>XQD-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div>  -->
+        <!--  16-数码管 -->
+        <!-- <div class="b_leftw26" id="b_leftw26">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/SMG-01.jpg"><p>SMG-01</p></li>
+               <li><img src="../images/cpzx/SMG-02.jpg"><p>SMG-02</p></li>
+               <li><img src="../images/cpzx/SMG-03.jpg"><p>SMG-03</p></li>
+               <li><img src="../images/cpzx/SMG-04.jpg"><p>SMG-04</p></li>
+               <li><img src="../images/cpzx/SMG-05.jpg"><p>SMG-05</p></li>
+               <li><img src="../images/cpzx/SMG-06.jpg"><p>SMG-06</p></li>
+               <li><img src="../images/cpzx/SMG-07.jpg"><p>SMG-07</p></li>
+               <li><img src="../images/cpzx/SMG-08.jpg"><p>SMG-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div> -->
+     <!--  17-LED亮化 -->
+    <!--     <div class="b_leftw27" id="b_leftw27">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/LEDLH-01.jpg"><p>LEDLH-01</p></li>
+               <li><img src="../images/cpzx/LEDLH-02.jpg"><p>LEDLH-02</p></li>
+               <li><img src="../images/cpzx/LEDLH-03.jpg"><p>LEDLH-03</p></li>
+               <li><img src="../images/cpzx/LEDLH-04.jpg"><p>LEDLH-04</p></li>
+               <li><img src="../images/cpzx/LEDLH-05.jpg"><p>LEDLH-05</p></li>
+               <li><img src="../images/cpzx/LEDLH-06.jpg"><p>LEDLH-06</p></li>
+               <li><img src="../images/cpzx/LEDLH-07.jpg"><p>LEDLH-07</p></li>
+               <li><img src="../images/cpzx/LEDLH-08.jpg"><p>LEDLH-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div> -->
+        <!--  18-配件 -->
+       <!--  <div class="b_leftw28" id="b_leftw28">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/PJ-01.jpg"><p>PJ-01</p></li>
+               <li><img src="../images/cpzx/PJ-02.jpg"><p>PJ-02</p></li>
+               <li><img src="../images/cpzx/PJ-03.jpg"><p>PJ-03</p></li>
+               <li><img src="../images/cpzx/PJ-04.jpg"><p>PJ-04</p></li>
+               <li><img src="../images/cpzx/PJ-05.jpg"><p>PJ-05</p></li>
+               <li><img src="../images/cpzx/PJ-06.jpg"><p>PJ-06</p></li>
+               <li><img src="../images/cpzx/PJ-07.jpg"><p>PJ-07</p></li>
+               <li><img src="../images/cpzx/PJ-08.jpg"><p>PJ-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div> -->
+       <!-- 19-监控杆 -->
+       <!--  <div class="b_leftw29" id="b_leftw29">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/JKG-01.jpg"><p>JKG-01</p></li>
+               <li><img src="../images/cpzx/JKG-02.jpg"><p>JKG-02</p></li>
+               <li><img src="../images/cpzx/JKG-03.jpg"><p>JKG-03</p></li>
+               <li><img src="../images/cpzx/JKG-04.jpg"><p>JKG-04</p></li>
+               <li><img src="../images/cpzx/JKG-05.jpg"><p>JKG-05</p></li>
+               <li><img src="../images/cpzx/JKG-06.jpg"><p>JKG-06</p></li>
+               <li><img src="../images/cpzx/JKG-07.jpg"><p>JKG-07</p></li>
+               <li><img src="../images/cpzx/JKG-08.jpg"><p>JKG-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div> -->
+         <!-- 20-标志牌 -->
+<!--         <div class="b_leftw30" id="b_leftw30">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/BZP-01.jpg"><p>BZP-01</p></li>
+               <li><img src="../images/cpzx/BZP-02.jpg"><p>BZP-02</p></li>
+               <li><img src="../images/cpzx/BZP-03.jpg"><p>BZP-03</p></li>
+               <li><img src="../images/cpzx/BZP-04.jpg"><p>BZP-04</p></li>
+               <li><img src="../images/cpzx/BZP-05.jpg"><p>BZP-05</p></li>
+               <li><img src="../images/cpzx/BZP-06.jpg"><p>BZP-06</p></li>
+               <li><img src="../images/cpzx/BZP-07.jpg"><p>BZP-07</p></li>
+               <li><img src="../images/cpzx/BZP-08.jpg"><p>BZP-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div> -->
+     <!--  21-信号灯 -->
+        <div class="b_leftw31" id="b_leftw31">
+            <ul class="b_r clearfix">
+               <li><img src="../images/cpzx/XHD-01.jpg"><p>XHD-01</p></li>
+               <li><img src="../images/cpzx/XHD-02.jpg"><p>XHD-02</p></li>
+               <li><img src="../images/cpzx/XHD-03.jpg"><p>XHD-03</p></li>
+               <li><img src="../images/cpzx/XHD-04.jpg"><p>XHD-04</p></li>
+               <li><img src="../images/cpzx/XHD-05.jpg"><p>XHD-05</p></li>
+               <li><img src="../images/cpzx/XHD-06.jpg"><p>XHD-06</p></li>
+               <li><img src="../images/cpzx/XHD-07.jpg"><p>XHD-07</p></li>
+               <li><img src="../images/cpzx/XHD-08.jpg"><p>XHD-08</p></li>
+            </ul>
+            <ul class="xia gwidth">
+                <li><a href="##" style="text-decoration:none;"><div id="test"> <<</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">1</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">2</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">3</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">4</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">5</div></a></li>
+                <li><a href="##" style="text-decoration:none;"><div id="test">>></div></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <!-- 网站导航 -->
+    <div class="wzdh">
+        <div class="dh gwidth clearfix">
+            <!-- <div class="dh_top clearfix">
+                
+            </div> -->
+            <div class="dh_btm clearfix">
+                <ul class="xil">
+                    <li class="zx">产品中心</li>
+                    <li><a href="zhihui.html">智慧路灯系列</a></li>
+                    <li><a href="gaogan.html">高杆灯系列</a></li>
+                    <li><a href="daolu.html">道路灯系列</a></li>
+                    <li><a href="tingyuan.html">庭院灯系列</a></li>
+                    <li><a href="taiyangneng.html">太阳能灯系列</a></li>
+                </ul>
+                <ul class="phone">
+                    <li class="lx">联系我们</li>
+                    <li>手机：13784292688</li>
+                    <li>电话：0311-88410195/88410222</li>
+                    <li>传真：0311-88410066 </li>
+                </ul>
+                <ul class="email">
+                    <li>网址：www.o-ya.cn </li>
+                    <li>邮箱：sjzoya@126.com</li>
+                    <li>地址：石家庄国际机场西行2公里</li>
+                </ul>
+                <ul class="sm">
+                      <li class="gz">关注我们</li>
+                    <li><img src="../images/ewm.jpg" alt="" class="ewm"></li>
+                    <li>扫一扫关注我们</li>
+                </ul>
+            </div>
+        </div>
+        <p class="lj gwidth">友情链接：<a href="https://www.baidu.com">百度</a><a href="http://www.sohu.com/">搜狐</a><a href="https://www.sina.com.cn/">新浪</a><a href="https://www.taobao.com/">淘宝</a></p>
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="foot gwidth">
+            <ul class="clearfix">
+                <li><a href="../index.html" alt="">首页</a></li>
+                <li><a href="../Wisdom Street Lamp.html" alt="">智慧路灯</a></li>
+                <li><a href="zhihui.html" alt="">产品中心</a></li>
+                <li><a href="../products1.html" alt="">合作案例</a></li>
+                <li><a href="../news.html" alt="">新闻资讯</a></li>
+                <li><a href="../about us/about us.html" alt="">关于我们</a></li>
+                <li><a href="../contact us/contact us.html" alt="">联系我们</a></li>
+               <!--  <li><a href="#" alt="">网站地图</a></li> -->
+            </ul>
+            <p class="p1">技术支持：畅行网络技术有限公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版权所有河北欧亚照明科技有限公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;冀ICP备09026827号
+            </p>
+        </div>
+    </div>
+    
+<!-- 右侧悬浮窗 -->
+<div class="side">
+  <ul>
+    <li id="qqonline"><i class="bgs1"></i>QQ咨询</li>
+   <!--  <li class="shangqiao">
+      <a href="javascript:;" rel="nofollow">
+        <div><i class="bgs2"></i>在线咨询</div>
+      </a>
+    </li> -->
+    <li class="sideewm"><i class="bgs3"></i>官方微信
+      <div class="ewBox son"></div>
+    </li>
+    <li class="sideetel"><i class="bgs4"></i>联系电话
+      <div class="telBox son">
+        <dd class="bgs1"><span>座机</span>0755-xxxxxxxx</dd>
+        <dd class="bgs2"><span>手机</span>133xxxxxxx</dd>
+      </div>
+    </li>
+   <!--  <li id="yuyueshow"><i class="bgs5"></i>预约上门</li> -->
+    <li class="sidetop" onClick="goTop()"><i class="bgs6"></i>返回顶部</li>
+  </ul>
+</div>
+<script src="statics/js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+  function goTop() {
+    $('html,body').animate({
+      scrollTop: 0
+    }, 500)
+  }
+  </script>
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
